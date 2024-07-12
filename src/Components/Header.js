@@ -4,8 +4,9 @@ function Header() {
 
     return (
         <>
-            <img src="" alt="Little Lemon" />
-            <Nav />
+            <div className="header">
+                <Nav />
+            </div>
         </>
     )
 }
