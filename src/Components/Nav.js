@@ -35,21 +35,14 @@ const Nav = () => {
                 <FaShoppingBasket />
             </div>
             <nav className={`nav ${isOpen ? 'nav-open' : ''}`}>
-                {/* <ul className="nav-list">
-                    <li> <a href="#home" onClick={handleClick}  >Home</a></li>
-                    <li>  <a href="#about" onClick={handleClick}>About</a></li>
-                    <li> <a href="#menu" onClick={handleClick}>Menu</a></li>
-                    <li> <a href="">Reservations</a></li>
-                    <li> <a href="">Order Online</a></li>
-                    <li> <a href="">Login</a></li>
-                </ul> */}
+
                 <ul className="nav-list">
                     <li><Link to="/">Home</Link></li>
-                    <li><Link to="/about">About</Link></li>
-                    <li><Link to="/menu">Menu</Link></li>
+                    <li>  <a href="#about" onClick={handleClick}>About</a></li>
+                    <li> <a href="#menu" onClick={handleClick}>Menu</a></li>
                     <li><Link to="/booking">Reservations</Link></li>
-                    <li><Link to="/order-online">Order Online</Link></li>
-                    <li><Link to="/login">Login</Link></li>
+                    <li><Link to="/">Order Online</Link></li>
+                    <li><Link to="/">Login</Link></li>
                 </ul>
             </nav>
 

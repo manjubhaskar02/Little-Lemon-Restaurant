@@ -27,7 +27,7 @@ const menus = [
     },
 ];
 
-const Menus = () => {
+function Menu() {
     return (
 
         <>
@@ -52,4 +52,4 @@ const Menus = () => {
     );
 };
 
-export default Menus;
+export default Menu;

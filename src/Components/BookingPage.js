@@ -1,18 +1,6 @@
-// import BookingForm from "./BookingForm";
-// function BookingPage() {
-//     return (
-//         <div>
-//             <h1>Booking Page</h1>
-//             <BookingForm />
-//         </div>
-//     )
-// }
-// export default BookingPage
 import { useReducer } from "react";
 import BookingForm from "./BookingForm";
 import { fetchAPI } from "./BookingAPI";
-// import '../../assets/shared.css';
-// import './book.css';
 import useSubmitForm from "./SubmitForm";
 import { useEffect } from "react";
 
@@ -28,10 +16,13 @@ const updateTimes = (availableTimes, action) => {
         default:
             return;
     };
+
 };
 
 function BookingPage() {
     const { submitForm } = useSubmitForm();
+    // const [availableTimes, dispatch] = ['5:00pm', '6:00pm', '7:00pm', '8:00pm', '9:00pm', '10:00pm'];
+
     const [availableTimes, dispatch] = useReducer(updateTimes, initializeTimes());
 
     useEffect(() => {
@@ -40,7 +31,7 @@ function BookingPage() {
 
     return (
         <>
-            <div className="reserve">
+            <div className="">
                 <BookingForm
                     {...{
                         submitForm,
@@ -48,7 +39,6 @@ function BookingPage() {
                         dispatch,
                     }}
                 />
-                {/* <img className="map" src={require('../../assets/images/map.JPG')} alt="Little Lemon location" /> */}
             </div>
             <small className="rights">© All rights reserved to Little Lemon</small>
         </>
