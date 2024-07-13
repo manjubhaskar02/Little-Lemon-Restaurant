@@ -31,13 +31,13 @@ Users should be able to:
 
 ### Screenshot
 
-![Testimonal-grid](../i.png)
+![Little-Lemon](src/images/Screenshot.png)
 
 
 ### Links
 
-- Solution URL: [https://github.com/manjubhaskar02/FM3-testimonals-grid-section](https://github.com/manjubhaskar02/FM3-testimonals-grid-section)
-- Live Site URL: [https://manjubhaskar02.github.io/FM3-testimonals-grid-section/](https://manjubhaskar02.github.io/FM3-testimonals-grid-section/)
+- Solution URL: [https://github.com/manjubhaskar02/Little-Lemon-Restaurant](https://github.com/manjubhaskar02/Little-Lemon-Restaurant)
+- Live Site URL: 
 
 ## My process
 
@@ -58,9 +58,6 @@ Want to focus on grid sections more.
 
 Taiwind CSS
 ## Author
-
-- Frontend Mentor - [@manjubhaskar02](https://www.frontendmentor.io/profile/manjubhaskar02)
-
 
 ## Acknowledgments
 
